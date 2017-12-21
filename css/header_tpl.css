@@ -1,0 +1,34 @@
+/****************************************/
+/* Приклад коду властивостей для header */
+/****************************************/
+
+/* Для закоментованих властивостей можна */
+/* вказати власні значення та зняти коментар */
+
+header {
+    background-color: #999;
+    background-image: "../img/web_background.jpg";
+    background-size: cover;
+    color:#fff;
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+}
+
+.carousel-item {
+    font-size: 1.5rem;
+    color: bisque;
+    
+}
+
+.carousel-item h1{
+    font-size: 2.5rem;
+    color: darkorange;
+    
+}
+
+
+header .row {
+    height: 100vh;  /* Приклад! Висота header завжди рівна висоті екрану пристрою */
+    justify-content: center;  /* Контейнери всередині header .row центруються по основній осі (горизонтально) */
+    align-items: center;  /* Контейнер всередині header .row центрується по поперечній осі (вертикально) */
+}

@@ -33,7 +33,7 @@ html { overflow-x: hidden; }
 
 .img-about {
     border-radius: 50%;
-	width:200px;
+	width:100%;
 	display: block;
 	margin: 0 auto;
 }
